@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+     font-family: "Poppins", sans-serif;
+}
+
+/* custom css */
+.zeroHeight {
+     height: 0px;
+
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+     width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+     background-color: #4f4f4f;
+     /* Change this to the color you want for the thumb */
+     border-radius: 4px;
+}
+
+/* For Firefox */
+/* Note: Firefox does not support changing the color of the scrollbar thumb directly */
+/* However, you can use a transparent background and box-shadow for a similar effect */
+/* The width of the scrollbar will be determined by the width property */
+/* You can adjust the width as needed */
+/* The inset shadow makes it look like a thin scrollbar */
+/* You can adjust the color and size of the shadow */
+/* to achieve the desired appearance */
+* {
+     scrollbar-color: transparent transparent;
+}
+
+*::-webkit-scrollbar {
+     width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+     background-color: #4f4f4f;
+}
+
+
+*::-webkit-scrollbar-track {
+     background-color: transparent;
+}
+
+*::-webkit-scrollbar-corner {
+     background-color: transparent;
+}
+
+.transitionAll {
+     transition: all 0.3s ease;
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     -ms-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+     transition-delay: 0.2s;
+}
+
+.hidden {
+     display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+     background-color: white;
+     padding: 1.5rem;
+     padding-block: 2.4rem;
+     border-radius: 10%;
+     display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+     .swiper-button-next,
+     .swiper-button-prev {
+          display: none;
+     }
+
+}
+
+.absoluteCenter {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.currentSize {
+     font-size: 1.3rem;
+}
