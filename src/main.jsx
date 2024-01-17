@@ -30,8 +30,8 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "/category/mobile_tablets",
-        element: <Mobile_tablet />,
+        path: "/category/:id",
+        element: <Product/>,
       },
       {
         path: '/product',

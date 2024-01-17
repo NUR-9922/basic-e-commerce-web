@@ -19,7 +19,7 @@ function HomeBannerSlider() {
   const bannerData = [
     {
       id: "r3k6wGDgA",
-      img: "./public/assets/banner-images/img-2.webp",
+      img: "https://lumia-theme.com/cdn/shop/files/slide-index2.png?v=1678869598&width=1536",
       title: 'Summer Sale',
       desc: 'Up to 50% off',
       btn: 'Shop Now'
