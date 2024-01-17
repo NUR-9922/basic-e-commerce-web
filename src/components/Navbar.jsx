@@ -17,7 +17,7 @@ function Navbar() {
               {" "}
               <img
                 className="w-40 h-full object-cover"
-                src="./public/logo/logo.png"
+                src="https://i.ibb.co/CwFssJC/logo.png"
                 alt=""
               />
             </div>

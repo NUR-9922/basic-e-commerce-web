@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Footer content (replace with your content) */}
           <div className="mb-8">
-            <h2 className="text-lg font-bold mb-4 w-40 text-primary"><img src="../public/assets/logo/logo.png" alt="" /></h2>
+            <h2 className="text-lg font-bold mb-4 w-40 text-primary"><img src="https://i.ibb.co/CwFssJC/logo.png" alt="" /></h2>
             <ul>
               <li>About Us</li>
               <li>Contact Us</li>
