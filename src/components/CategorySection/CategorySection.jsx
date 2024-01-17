@@ -12,7 +12,6 @@ function CategorySection() {
       .then((data) => {
         setCategoryData(data);
         setLoading(false); // Set loading to false when data is received
-        console.log(categoryData);
       });
   }, []);
 
@@ -20,7 +19,7 @@ function CategorySection() {
     <div>
       {loading ? (
         // Show loader while data is being fetched
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex justify-center items-center h-52">
            <CircularProgress />
         </div>
       ) : (
