@@ -27,7 +27,7 @@ Feel free to explore the tclothing project and use it as a starting point for yo
 
 ## Getting Started
 
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone https://github.com/nuralam9922/basic-e-commerce-web/`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 
