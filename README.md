@@ -1,7 +1,5 @@
-# React + Vite
-
 # tclothing E-Commerce Website
-(link 🖇️ )[https://basic-e-commerce-web.vercel.app/]
+
 Welcome to tclothing, an e-commerce website project still under construction but showing great potential!
 
 ## Overview
@@ -29,7 +27,7 @@ Feel free to explore the tclothing project and use it as a starting point for yo
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/nuralam9922/basic-e-commerce-web`
+1. Clone the repository: `git clone <repository-url>`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 
@@ -44,3 +42,7 @@ This project is powered by GPT for generating documentation and assisting in the
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+[Visit the tclothing website](https://basic-e-commerce-web.vercel.app/)
